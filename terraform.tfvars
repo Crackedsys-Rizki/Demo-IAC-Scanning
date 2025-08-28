@@ -1,0 +1,5 @@
+project_id           = "neural-tangent-441911-c4"
+region               = "asia-southeast2"
+zone                 = "asia-southeast2a"
+credentials_file     = "neural-tangent-441911-c4-454bd723d5db.json"
+service_account_email = "terraform-testing@neural-tangent-441911-c4.iam.gserviceaccount.com"

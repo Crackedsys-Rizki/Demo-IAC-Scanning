@@ -17,6 +17,9 @@ resource "google_compute_instance" "default" {
   name         = "terraform-gcp-instance"
   machine_type = "e2-micro"
   zone         = var.zone
+    metadata = {
+      block-project-ssh-keys = true
+  }
 
   boot_disk {
     initialize_params {
